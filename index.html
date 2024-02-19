@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en" id="home">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CallMeARF</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand page-scroll text-white" href="#home">Navbar</a>
+            <button class="navbar-toggler text-white-50" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link page-scroll text-white" href="#about">About</a>
+                    <a class="nav-link page-scroll text-white" href="#portfolio">Portfolio</a>
+                    <a class="nav-link page-scroll text-white" href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="container-fluid text-center p-5 jumbotron">
+        <img src="img/pro.jpg" alt="Alip Rizky Firdaus" class="profile">
+        <h1>Alip Rizky Firdaus</h1>
+        <p>Junior Programmer | Student | Animelover</p>
+    </div>
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-sm-12 mt-3">
+                    <h2 class="text-center text-black">About</h2>
+                    <hr class="mx-auto">
+                </div>
+            </div>
+
+            <div class="row justify-content-sm-center">
+                <div class="col-sm-5 text-black">
+                    <p class="pKiri">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eum odio nam sunt a ut
+                        non
+                        distinctio, atque nihil sequi inventore dignissimos fugit? Saepe beatae delectus
+                        voluptas
+                        officia ipsa praesentium.</p>
+                </div>
+                <div class="col-sm-5 text-black">
+                    <p class="pKanan">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis quasi accusamus
+                        nobis
+                        officia
+                        dolore, sunt recusandae minus iusto qui, eos eligendi illum harum quia voluptate esse,
+                        sit
+                        commodi itaque nostrum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mt-3">
+                    <h2 class="text-center">Portfolio</h2>
+                    <hr class="mx-auto port">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4 mb-3">
+                    <a href="">
+                        <img src="img/portfolio/php.jpg" alt="PHP" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 mb-3">
+                    <a href="">
+                        <img src="img/portfolio/code.jpg" alt="CODE" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 mb-3">
+                    <a href="">
+                        <img src="img/portfolio/html.jpg" alt="HTML" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 mb-3">
+                    <a href="">
+                        <img src="img/portfolio/css.jpg" alt="CSS" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 mb-3">
+                    <a href="">
+                        <img src="img/portfolio/js.jpg" alt="JavaScript" class="img-thumbnail">
+                    </a>
+                </div>
+
+                <div class="col-sm-4 mb-3">
+                    <a href="">
+                        <img src="img/portfolio/bs.jpg" alt="Bootstrap" class="img-thumbnail">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Akhir Portfolio -->
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 mt-3">
+                    <h2 class="text-center">Contact</h2>
+                    <hr class="mx-auto">
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nama" class="form-label text-black">Nama: </label>
+                            <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-black">Email: </label>
+                            <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="telepon" class="form-label text-black">Telepon: </label>
+                            <input type="tel" class="form-control" id="telepon" placeholder="Masukkan Nomor Telepon">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="kategori">Kategori: </label>
+                            <select class="form-select" id="kategori">
+                                <option selected>-- Pilih Kategori --</option>
+                                <option value="php">PHP</option>
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="pesan">Pesan: </label>
+                            <textarea class="form-control" placeholder="Masukkan Pesan" id="pesan"
+                                style="height: 100px"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ahir Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="text-white">&copy; 2023 | Built by. <a href="https://github.com/CallMeARF">Alip
+                            Rizky
+                            Firdaus.</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
